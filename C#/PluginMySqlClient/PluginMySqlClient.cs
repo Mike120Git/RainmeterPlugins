@@ -18,7 +18,7 @@ namespace PluginMySqlClient
 
         private void GetData()
         {
-            //var connectionString = "Server=hellsgate.home.net;Port=3307;Database=meteo;Uid=meteo;Pwd=P@$$w0rd;";
+            //var connectionString = "Server=hellsgate.home.net;Port=3307;Database=meteo;Uid=meteo;Pwd=*******;";
             using (var connection = new MySqlConnection(ConnectionString))
             {
                 connection.Open();
